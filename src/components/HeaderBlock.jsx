@@ -1,5 +1,6 @@
-import { FiArrowRight } from "react-icons/fi";
 import Block from "./Block";
+import { SiGithub } from "react-icons/si";
+import { BiLogoGmail } from "react-icons/bi";
 
 const HeaderBlock = () => (
   <Block className="col-span-12 row-span-2 md:col-span-6">
@@ -14,9 +15,24 @@ const HeaderBlock = () => (
         I design and develop websites, including this one.
       </span>
     </h1>
-    <h2 className="flex items-center gap-1 text-red-300 hover:underline">
-      <a href="mailto:ngquangminh2128@gmail.com" className="text-inherit">
-        ngquangminh2128@gmail.com
+    <h2 className=" flex flex-col items-start gap-1">
+      <a
+        href="mailto:ngquangminh2128@gmail.com"
+        className="text-inherit text-red-300 hover:underline"
+      >
+        <span className="flex items-center justify-center gap-2">
+          <BiLogoGmail />
+          ngquangminh2128@gmail.com
+        </span>
+      </a>
+      <a
+        href="https://github.com/Minh20812"
+        className="text-inherit text-red-300 hover:underline"
+      >
+        <span className="flex items-center justify-center gap-2">
+          <SiGithub />
+          https://github.com/Minh20812
+        </span>
       </a>
     </h2>
   </Block>
