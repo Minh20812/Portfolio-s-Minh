@@ -5,7 +5,7 @@ import { BiLogoGmail } from "react-icons/bi";
 const HeaderBlock = () => (
   <Block className="col-span-12 row-span-2 md:col-span-6">
     <img
-      src="https://i.imgur.com/ZgBah7z.jpg"
+      src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739982912/avatar_tgdrc5.jpg"
       alt="avatar"
       className="mb-4 size-14 rounded-full"
     />
