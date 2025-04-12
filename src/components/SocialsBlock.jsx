@@ -12,7 +12,7 @@ const SocialsBlock = () => (
       className="col-span-6 md:col-span-3 p-0 grid grid-cols-1 relative group"
     >
       <a
-        href="https://webchatfirebase.vercel.app/"
+        href="https://recallmaster.vercel.app/"
         target="_blank"
         className="absolute top-0 left-0 w-1/2 h-full z-10 flex items-center justify-center transition-all duration-300"
       >
@@ -21,7 +21,7 @@ const SocialsBlock = () => (
         </div>
       </a>
       <a
-        href="https://github.com/Minh20812/WebChatFireBase"
+        href="https://github.com/Minh20812/ReCall-Master"
         target="_blank"
         className="absolute top-0 right-0 w-1/2 h-full z-10 flex items-center justify-center transition-all duration-300"
       >
@@ -30,7 +30,7 @@ const SocialsBlock = () => (
         </div>
       </a>
       <img
-        src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739978889/chatBanner_fau67l.png"
+        src="./RecallMaster.png"
         alt="pic3"
         className="w-full h-full object-cover"
       />
@@ -76,25 +76,25 @@ const SocialsBlock = () => (
       className="col-span-6 md:col-span-3 p-0 grid grid-cols-1 relative group"
     >
       <a
-        href="https://snake-game-gamma-blue.vercel.app/"
+        href="https://webchatfirebase.vercel.app/"
         target="_blank"
         className="absolute top-0 left-0 w-1/2 h-full z-10 flex items-center justify-center transition-all duration-300"
       >
         <div className="bg-black/80 text-white p-2 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-          <Worm />
+          <LaptopMinimal />
         </div>
       </a>
       <a
-        href="https://sudoku-ten-rho.vercel.app/"
+        href="https://github.com/Minh20812/WebChatFireBase"
         target="_blank"
         className="absolute top-0 right-0 w-1/2 h-full z-10 flex items-center justify-center transition-all duration-300"
       >
         <div className="bg-black/80 text-white p-3 rounded opacity-0 group-hover:opacity-100 transition-opacity">
-          <Hexagon />
+          <SiGithub />
         </div>
       </a>
       <img
-        src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739981645/gameBanner_pt6cfx.png"
+        src="https://res.cloudinary.com/djojfg2rr/image/upload/v1739978889/chatBanner_fau67l.png"
         alt="pic3"
         className="w-full h-full object-cover"
       />
